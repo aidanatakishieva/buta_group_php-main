@@ -1,0 +1,37 @@
+.aktiv{
+	color: #3e4095 !important;
+}
+
+#flags{ width: 58px !important; }
+#mainmenu li a{font-size: 15px !important; padding-right: 14px;}
+#contact_us h2{ font-size: 37px !important; }
+
+@media screen and (max-width: 576px) {
+	#flags{ background: transparent !important; padding: 0 !important; width: 20px !important; }
+	#flags li{ padding: 0 !important }
+	a#tr,a#az,a#rus,a#en{ padding: 3px 0 0 0 !important; background: none !important;  }
+	a#tr+span,a#az+span,a#rus+span,a#en+span{ margin-top: 0 !important;  }
+	#logo>a>img{ max-width: 120px !important;  padding-top: 10px; margin-right: 5px !important;}
+	#menu-btn{ margin-left: 5px !important; }
+	#our_logo{ max-width: 120px !important; }
+	.mobile{ padding-top: 8px !important;  }
+	.btn-custom{ padding: 4px 10px !important; font-size: 13px !important; }
+	#about_misc_photo{ height: 35vh !important; }
+}
+
+@media screen and (max-width: 992px) and (min-width: 577px) {
+	#logo>a>img{ max-width: 150px !important; padding-top: 10px; }
+	#our_logo{ max-width: 150px !important; }
+	.btn-custom{ padding: 6px 15px !important;  }
+	#flags{ background: transparent !important; padding: 0 !important; width: 20px !important; }
+	#flags li{ padding: 0 !important }
+	a#tr,a#az,a#rus,a#en{ padding: 3px 0 0 0 !important; background: none !important;  }
+	a#tr+span,a#az+span,a#rus+span,a#en+span{ margin-top: 0 !important;  }
+	.mobile{ padding-top: 8px !important;  }
+}
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+	#mainmenu{ max-width: 900px !important; padding: 0 !important; }
+	#mainmenu li a{font-size: 13px !important; padding-right: 14px;}
+	#logo>a>img{ max-width: 150px !important;}
+	#our_logo{ max-width: 150px !important; }
+}
